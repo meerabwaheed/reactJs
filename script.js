@@ -19,14 +19,14 @@ console.log("four");
 // }else{
 //     console.log("child");
 // }
-// function sub(a, b) {
-//     return a - b;
-// }
-// function calculate(a, b, callback) {
-//     return callback(a, b);
-// }
-//     calculate(3, 2, sub);
-//     console.log(calculate(3, 2, sub));
+function sub(a, b) {
+    return a - b;
+}
+function calculate(a, b, callback) {
+    return callback(a, b);
+}
+    calculate(3, 2, sub);
+    console.log(calculate(3, 2, sub));
 let a = prompt("enter first number");
 let b = prompt("enter second number");
 let c = prompt("what operation you want to perform write + for addition, - for subtraction");
