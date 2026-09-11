@@ -33,8 +33,8 @@
 // console.log("your answer is " + (c === "+" ? (parseInt(a) + parseInt(b)) : (parseInt(a) - parseInt(b))));
 
 //nesting loop
-for (let i = 1; i <= 5; i++) {
-    for (let j = 1; j <= 5; j++) {
+for (let i = 0; i <= 5; i++) {
+    for (let j = 0; j <= 5; j++) {
         console.log(i + " " + j);
     }
 }
