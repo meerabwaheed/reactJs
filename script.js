@@ -33,8 +33,13 @@
 // console.log("your answer is " + (c === "+" ? (parseInt(a) + parseInt(b)) : (parseInt(a) - parseInt(b))));
 
 //nesting loop
-for (let i = 0; i <= 5; i++) {
-    for (let j = 0; j <= 5; j++) {
-        console.log(i + " " + j);
-    }
+// for (let i = 0; i <= 5; i++) {
+//     for (let j = 0; j <= 5; j++) {
+//         console.log(i + " " + j);
+//     }
+// }
+
+
+function getData(dataId){
+    console.log("data " + dataId);
 }
